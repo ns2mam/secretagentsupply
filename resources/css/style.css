@@ -69,8 +69,40 @@ h1 {
 .merch {
   display: flex;
   justify-content: space-between;
+  margin: 3rem auto;
 }
 
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.item img {
+/*  display: block;*/
+  height: 9rem;
+  margin: 2rem;
+}
+
+.item span {
+  display: block;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto 4rem;
+}
+
+.location, .hours {
+  width: 35%;
+}
 
 footer {
   display: flex;
