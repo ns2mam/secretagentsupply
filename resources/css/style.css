@@ -13,6 +13,7 @@ header {
   display: flex;
   background-color: black;
   height: 2.32rem;
+/*  width: 100%;*/
   align-items: center;
   }
 
@@ -24,4 +25,57 @@ header img {
 
 header span {
   padding: 0.66rem 0.5rem;
+}
+
+.banner {
+/*  display: flex;*/
+  height: 25rem;
+  background-color: black;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrival {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  /*margin-top: 9rem;*/
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  background-color: firebrick;
+  justify-content: space-between;
+}
+
+.nav span {
+  padding: 0.75rem 0;
+}
+
+.merch {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer {
+  display: flex;
+  height: 5rem;
+  background-color: black;
+  text-align: left;
+  align-items: center;
 }
