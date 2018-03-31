@@ -16,6 +16,7 @@ header {
   /*flex: 1 1 960px;*/
   background-color: black;
   height: 2.32rem;
+  max-width: 960px;
 /*  width: 100%;*/
   /*flex-basis: 960px;*/
   align-items: center;
@@ -70,6 +71,7 @@ h1 {
   background-color: firebrick;
   justify-content: space-between;
   padding: 0 203px;
+  max-width: 960px;
 }
 
 .nav span {
@@ -81,6 +83,7 @@ h1 {
   justify-content: space-between;
   margin: 3rem auto;
   padding: 0 203px;
+  max-width: 960px;
 }
 
 .item {
@@ -112,6 +115,7 @@ h1 {
   justify-content: space-between;
   margin: 3rem auto 4rem;
   padding: 0 203px;
+  max-width: 960px;
 }
 
 .location, .hours {
@@ -138,4 +142,5 @@ footer {
   text-align: left;
   align-items: center;
   padding: 0 203px;
+  max-width: 960px;
 }
