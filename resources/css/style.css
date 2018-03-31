@@ -20,6 +20,7 @@ header {
   /*flex-basis: 960px;*/
   align-items: center;
   /*z-index: 1;*/
+  padding: 0 203px;
   }
 
 header img {
@@ -41,6 +42,7 @@ header span {
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 203px;
 }
 
 .arrival {
@@ -67,6 +69,7 @@ h1 {
   display: flex;
   background-color: firebrick;
   justify-content: space-between;
+  padding: 0 203px;
 }
 
 .nav span {
@@ -77,6 +80,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin: 3rem auto;
+  padding: 0 203px;
 }
 
 .item {
@@ -104,8 +108,10 @@ h1 {
 
 .about {
   display: flex;
+  /*flex-basis: 960px;*/
   justify-content: space-between;
   margin: 3rem auto 4rem;
+  padding: 0 203px;
 }
 
 .location, .hours {
@@ -131,4 +137,5 @@ footer {
   background-color: black;
   text-align: left;
   align-items: center;
+  padding: 0 203px;
 }
