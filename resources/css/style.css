@@ -203,3 +203,54 @@ footer {
     padding: 0;
   }
 }
+
+
+@media only screen and (max-width: 470px) {
+
+  h2 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .banner {
+    height: 15rem;
+  }
+
+  .arrival {
+    top: 10rem;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .merch {
+    justify-content: center;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location, .hours {
+    width: 90%;
+    padding: 0.25rem 0;
+  }
+
+  footer {
+    justify-content: center;
+    text-align: center;
+  }
+}
