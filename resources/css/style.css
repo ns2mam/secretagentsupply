@@ -198,7 +198,7 @@ footer {
   }
 
 /*  .item {*/
-  .product {  
+  .product {
     width: 47%;
   }
 
@@ -244,7 +244,8 @@ footer {
     justify-content: center;
   }
 
-  .item {
+/*item {*/
+  .product {
     width: 90%;
   }
 
