@@ -144,3 +144,58 @@ footer {
   padding: 0 203px;
   max-width: 960px;
 }
+
+@media only screen and (min-width: 1024px) {
+  .smallscrn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  header {
+    max-width: 1024px;
+    padding: 0;
+  }
+
+  .banner {
+    padding-left: 0;
+  }
+
+  .nav {
+    max-width: 1024px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .largescrn {
+    display: none;
+  }
+
+  .smallscrn {
+    text-align: center;
+  }
+
+  .merch {
+    max-width: 1024px;
+    padding: 0;
+  }
+
+  .item {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  .about {
+    max-width: 1024px;
+    padding: 0;
+  }
+
+  footer {
+    max-width: 1024px;
+    padding: 0;
+  }
+}
