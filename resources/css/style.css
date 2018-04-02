@@ -4,6 +4,10 @@ html {
   color: white;
 }
 
+div {
+  display: block;
+}
+
 .site-container {
   /*display: flex;*/
   /*flex: 1 1 960px;*/
@@ -86,27 +90,35 @@ h1 {
   max-width: 960px;
 }
 
+.product {
+  width: 30%;
+}
+
 .item {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   justify-content: center;
-  width: 30%;
+  align-items: center;
+  height: 9rem;
+  /*width: 30%;*/
   border: 4px solid black;
+  padding: 2rem 0;
 }
 
 .item img {
 /*  display: block;*/
-  width: 9rem;
-  height: 9rem;
-  margin: 2rem;
+  max-width: 8rem;
+  height: auto;
+/*  padding: 2rem 0;*/
 }
 
-.item span {
+/*.item span {*/
+.product span {
   display: block;
   background-color: black;
-  width: 100%;
+/*  width: 100%;*/
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
 }
 
 .about {
